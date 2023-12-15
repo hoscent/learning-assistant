@@ -7,6 +7,6 @@
 
 部分运行示例：
 
-![h1](E:\Study\智慧学伴-三个诸葛亮\源码\assets\h1.png)
+![h1](.\assets\h1.png)
 
-![h2](E:\Study\智慧学伴-三个诸葛亮\源码\assets\h2.png)
+![h2](.\assets\h2.png)
