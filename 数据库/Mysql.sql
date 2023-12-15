@@ -1,11 +1,6 @@
--- phpMyAdmin SQL Dump
--- version 5.0.4
--- https://www.phpmyadmin.net/
---
 -- 主机： localhost
 -- 生成日期： 2023-11-12 13:25:23
 -- 服务器版本： 5.7.40-log
--- PHP 版本： 7.4.33
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
