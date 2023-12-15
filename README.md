@@ -12,6 +12,6 @@
 
 部分运行示例：
 
-![h1](.\assets\h1.png)
+![h1](https://github.com/hoscent/learning-assistant/blob/main/assets/h1.png)
 
-![h2](.\assets\h2.png)
+![h2](https://github.com/hoscent/learning-assistant/blob/main/assets/h2.png)
