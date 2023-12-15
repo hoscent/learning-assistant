@@ -1,0 +1,7 @@
+tools:
+  openai:
+    dashscope:
+      qwen-key: "这里配置你的dashscope的key"
+  token:
+    expiration: "token有效期"
+    secret: "加密密钥"

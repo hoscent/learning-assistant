@@ -1,0 +1,6 @@
+alicloud:
+  oss:
+    accessKeyId: "阿里OSS的AccessKeyId"
+    accessKeySecret: "阿里OSS的AccessKeySecret"
+    endpoint: "仓库地址" # 不加http(s)://
+    bucketName: "bucket名字"

@@ -1,0 +1,27 @@
+server:
+  port: 6789
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/learning?serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
+    type: com.alibaba.druid.pool.DruidDataSource
+  config:
+    import: alicloud.yml,tools.yml
+
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: auto
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+logging:
+  file:
+    name: server.log
+  logback:
+    rolling-policy:
+      file-name-pattern: "server.%d{yyyy-MM-dd}.%i.log"
+      max-file-size: 10MB

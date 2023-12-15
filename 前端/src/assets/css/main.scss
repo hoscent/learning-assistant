@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: #f4f4f4;
+}
+
+pre {
+    overflow-x: auto;
+    background-color: #e3e8f6;
+    border-radius: 4px;
+    padding: 4px 6px;
+}
+
+#app {
+    width: 100%;
+    height: 100%;
+}
+
+.text-ellipsis-1, .text-ellipsis-2, .text-ellipsis-3 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+}
+
+.text-ellipsis-1 {
+    -webkit-line-clamp: 1;
+}
+
+.text-ellipsis-2 {
+    -webkit-line-clamp: 2;
+}
+
+.text-ellipsis-3 {
+    -webkit-line-clamp: 3;
+}
+
+.home, .study, .community, .article {
+  padding-top: 46px;
+  padding-bottom: 50px;
+}
+
+.news, .detail, .chat, .publish, .setting, .edit-notes {
+    padding-top: 46px;
+}
